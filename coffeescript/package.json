@@ -1,0 +1,25 @@
+{
+  "name": "euler",
+  "version": "0.0.4",
+  "description": "Where I solve my Project Euler problems.",
+  "main": "src/main.coffee.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jfaville/phaeton.git"
+  },
+  "author": "James Faville",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfaville/phaeton/issues"
+  },
+  "homepage": "https://github.com/jfaville/phaeton"
+}
